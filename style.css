@@ -1,6 +1,6 @@
 body {
-  margin: 0;
   background: black;
+  margin: 0;
   display: -webkit-flex;
   display:    -moz-flex;
   display:         flex;
@@ -10,10 +10,16 @@ body {
   -webkit-flex-direction: column;
      -moz-flex-direction: column;
           flex-direction: column;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h2 {
+.indieweb-contact {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: black;
+  padding: 0 10px;
+}
+
+.indieweb-contact h2 {
+  text-align: center;
   color: white;
   font-weight: 100;
   font-size: 30px;
@@ -21,7 +27,7 @@ h2 {
   letter-spacing: 2px; 
 }
 
-ol {
+.indieweb-contact ol {
   padding: 22px 10px 18px;
   margin: 0;
   width: 100%;
@@ -40,12 +46,12 @@ ol {
           box-sizing: border-box;
 }
 
-li {
+.indieweb-contact li {
   width: 33%;
   text-align: center;
 }
 
-a {
+.indieweb-contact a {
   font-size: 11px;
   font-weight: 100;
   letter-spacing: 0.08em;
@@ -55,9 +61,27 @@ a {
   text-decoration: none;
 }
 
-a img {
+.indieweb-contact a img {
   border-radius: 13px;
   overflow: hidden;
   display: block;
   margin: 0 auto 5px;
+}
+
+/*
+
+  mobile only
+  
+*/
+
+@media only screen and (max-width: 768px) {
+  .indieweb-contact h2 {
+    font-weight: 200;
+  }
+
+  .indieweb-contact a {
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
 }
