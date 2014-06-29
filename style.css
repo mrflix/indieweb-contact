@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  background: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  margin: 40px 0;
+  letter-spacing: 2px; 
+}
+
+ol {
+  padding: 22px 10px 18px;
+  margin: 0;
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #4e4e50;
+  list-style: none;
+  border-radius: 32px;
+  box-sizing: border-box;
+}
+
+li {
+  width: 33%;
+  text-align: center;
+}
+
+a {
+  font-size: 11px;
+  font-weight: 100;
+  letter-spacing: 0.08em;
+  padding: 7px 0;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+a img {
+  border-radius: 13px;
+  overflow: hidden;
+  display: block;
+  margin: 0 auto 5px;
+}
