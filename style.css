@@ -1,9 +1,15 @@
 body {
   margin: 0;
   background: black;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:         flex;
+  -webkit-align-items: center;
+     -moz-align-items: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+     -moz-flex-direction: column;
+          flex-direction: column;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -20,12 +26,18 @@ ol {
   margin: 0;
   width: 100%;
   max-width: 320px;
-  display: flex;
-  flex-wrap: wrap;
+  display: -webkit-flex;
+  display:    -moz-flex;
+  display:         flex;
+  -webkit-flex-wrap: wrap;
+     -moz-flex-wrap: wrap;
+          flex-wrap: wrap;
   background: #4e4e50;
   list-style: none;
   border-radius: 32px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 li {
