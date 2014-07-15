@@ -56,6 +56,10 @@ body {
   margin: 0 auto 5px;
 }
 
+.indieweb-contact a abbr {
+  border: none;
+}
+
 /*
 
   mobile only
